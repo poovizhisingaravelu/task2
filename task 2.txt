@@ -1,0 +1,39 @@
+1.json iterate using for in
+  var employee={"name":"poovizhi","dept":"developing","position":"developer","year":"2023"","adress":"singapore"}
+for(var a in employee)
+{
+console.log(a,student[a]);
+}
+
+2.create your own resume JSSON format
+var myresume={"name":"poovizhi santhoaham","adress":"singapore","phone":"+65 87109531","PG":"["M.tech(cse)","8.57"]","UG":"["B.tech(IT)","6.75"]","working exper":"3years teaching experiance"}
+
+3.read difference between window,screen and  document?
+Window: 
+*Window is the global object in the browser that represent browser window in the page.
+*Window object have all properties on the window are available directly in script.
+*Console.log(window);
+*The window is the first things get loaded into the browser.
+*Windows has the document,properties like length,innerwidth,ourtwidth
+
+Document:
+*The document inside the window.
+*Document can access any html element.
+*Html head and body stored in document.
+*Document is the property of window.
+*The document actually get load the window object.
+*The document follow the tree structure so called as DOM(document object model tree)
+*Console.log(window.document.getElementByTagname());
+*Dom can access get element,change element,exit ect
+screen :
+ *The screen object contains information about the visitor's screen.
+*It can be used to display screen width, height, colorDepth, pixelDepth etc.
+*The navigator object is the window property, so it can be accessed by:
+*window.screen  
+*Property
+width-returns the width of the screen
+height-returns the height of the screen
+vailWidt-returns the available width
+availHeight-returns the available height
+colorDepth	returns the color depth
+6	pixelDepth
